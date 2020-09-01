@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.lsy.learn.security.mapper.UserMapper">
+
+    
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="org.lsy.learn.security.model.User">
+         <id column="id" property="id " jdbcType="INTEGER"/>
+         <result column="username" property="username" jdbcType="VARCHAR"/>
+         <result column="password" property="password" jdbcType="VARCHAR"/>
+         <result column="nick_name" property="nickName" jdbcType="VARCHAR"/>
+         <result column="sex" property="sex" jdbcType="VARCHAR"/>
+         <result column="phone" property="phone" jdbcType="VARCHAR"/>
+         <result column="email" property="email" jdbcType="VARCHAR"/>
+         <result column="avatar" property="avatar" jdbcType="VARCHAR"/>
+         <result column="flag" property="flag" jdbcType="INTEGER"/>
+         <result column="salt" property="salt" jdbcType="VARCHAR"/>
+         <result column="token" property="token" jdbcType="VARCHAR"/>
+         <result column="qq_oppen_id" property="qqOppenId" jdbcType="VARCHAR"/>
+         <result column="pwd" property="pwd" jdbcType="VARCHAR"/>
+         <result column="gmt_create" property="gmtCreate" jdbcType="TIMESTAMP"/>
+         <result column="gmt_modified" property="gmtModified" jdbcType="TIMESTAMP"/>
+     </resultMap>
+</mapper>

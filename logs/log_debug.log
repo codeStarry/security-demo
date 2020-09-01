@@ -1,0 +1,73 @@
+2020-09-01 15:43:11.135 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-09-01 15:43:11.185 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 28 mappings in 'requestMappingHandlerMapping'
+2020-09-01 15:43:11.199 [main] DEBUG o.s.web.servlet.handler.BeanNameUrlHandlerMapping - Detected 0 mappings in 'beanNameHandlerMapping'
+2020-09-01 15:43:11.212 [main] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-09-01 15:43:11.221 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-09-01 15:48:05.896 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-09-01 15:48:05.944 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 28 mappings in 'requestMappingHandlerMapping'
+2020-09-01 15:48:05.959 [main] DEBUG o.s.web.servlet.handler.BeanNameUrlHandlerMapping - Detected 0 mappings in 'beanNameHandlerMapping'
+2020-09-01 15:48:05.972 [main] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-09-01 15:48:05.983 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-09-01 15:48:46.402 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-09-01 15:48:46.450 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 28 mappings in 'requestMappingHandlerMapping'
+2020-09-01 15:48:46.463 [main] DEBUG o.s.web.servlet.handler.BeanNameUrlHandlerMapping - Detected 0 mappings in 'beanNameHandlerMapping'
+2020-09-01 15:48:46.476 [main] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-09-01 15:48:46.485 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-09-01 16:00:15.528 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-09-01 16:00:15.577 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 28 mappings in 'requestMappingHandlerMapping'
+2020-09-01 16:00:15.590 [main] DEBUG o.s.web.servlet.handler.BeanNameUrlHandlerMapping - Detected 0 mappings in 'beanNameHandlerMapping'
+2020-09-01 16:00:15.604 [main] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-09-01 16:00:15.613 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-09-01 16:00:53.888 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-09-01 16:00:53.937 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 28 mappings in 'requestMappingHandlerMapping'
+2020-09-01 16:00:53.951 [main] DEBUG o.s.web.servlet.handler.BeanNameUrlHandlerMapping - Detected 0 mappings in 'beanNameHandlerMapping'
+2020-09-01 16:00:53.964 [main] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-09-01 16:00:53.974 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-09-01 16:02:44.598 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-09-01 16:02:44.646 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 28 mappings in 'requestMappingHandlerMapping'
+2020-09-01 16:02:44.661 [main] DEBUG o.s.web.servlet.handler.BeanNameUrlHandlerMapping - Detected 0 mappings in 'beanNameHandlerMapping'
+2020-09-01 16:02:44.676 [main] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-09-01 16:02:44.686 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-09-01 16:02:52.481 [http-nio-8050-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2020-09-01 16:02:54.444 [http-nio-8050-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-09-01 16:02:54.459 [http-nio-8050-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK, headers={masked}
+2020-09-01 16:07:59.000 [main] DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: springSecurityFilterChain urls=[/*] order=-100, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105, jwtTokenAuthenticationFilter urls=[/*] order=2147483647, jwtUserAuthenticationFilter urls=[/*] order=2147483647
+2020-09-01 16:07:59.000 [main] DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/]
+2020-09-01 16:07:59.416 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-09-01 16:07:59.465 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 28 mappings in 'requestMappingHandlerMapping'
+2020-09-01 16:07:59.494 [main] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-09-01 16:07:59.503 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-09-01 16:08:03.803 [http-nio-8050-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2020-09-01 16:08:03.808 [http-nio-8050-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2020-09-01 16:08:05.772 [http-nio-8050-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - POST "/learn/user/list", parameters={}
+2020-09-01 16:08:05.775 [http-nio-8050-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.lsy.learn.security.controller.UserApi#listUser()
+2020-09-01 16:08:05.830 [http-nio-8050-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-09-01 16:08:05.831 [http-nio-8050-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [org.lsy.learn.security.config.R@52952c01]
+2020-09-01 16:08:05.846 [http-nio-8050-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2020-09-01 16:09:18.889 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-09-01 16:09:18.938 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 28 mappings in 'requestMappingHandlerMapping'
+2020-09-01 16:09:18.953 [main] DEBUG o.s.web.servlet.handler.BeanNameUrlHandlerMapping - Detected 0 mappings in 'beanNameHandlerMapping'
+2020-09-01 16:09:18.966 [main] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-09-01 16:09:18.976 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-09-01 16:09:30.231 [http-nio-8050-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2020-09-01 16:09:52.394 [http-nio-8050-exec-5] DEBUG org.lsy.learn.security.controller.UserApi - 哈哈哈哈哈哈
+2020-09-01 16:09:52.469 [http-nio-8050-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-09-01 16:09:52.476 [http-nio-8050-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK, headers={masked}
+2020-09-01 16:11:50.651 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-09-01 16:11:50.699 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 28 mappings in 'requestMappingHandlerMapping'
+2020-09-01 16:11:50.714 [main] DEBUG o.s.web.servlet.handler.BeanNameUrlHandlerMapping - Detected 0 mappings in 'beanNameHandlerMapping'
+2020-09-01 16:11:50.726 [main] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-09-01 16:11:50.736 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-09-01 16:11:55.079 [http-nio-8050-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2020-09-01 16:11:57.131 [http-nio-8050-exec-2] DEBUG org.lsy.learn.security.controller.UserApi - 哈哈哈哈哈哈
+2020-09-01 16:11:57.176 [http-nio-8050-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-09-01 16:11:57.193 [http-nio-8050-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK, headers={masked}
+2020-09-01 16:14:22.035 [http-nio-8050-exec-5] DEBUG org.lsy.learn.security.controller.UserApi - 哈哈哈哈哈哈
+2020-09-01 16:14:22.188 [http-nio-8050-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-09-01 16:14:22.188 [http-nio-8050-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK, headers={masked}
+2020-09-01 16:23:19.050 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-09-01 16:23:19.103 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 28 mappings in 'requestMappingHandlerMapping'
+2020-09-01 16:23:19.118 [main] DEBUG o.s.web.servlet.handler.BeanNameUrlHandlerMapping - Detected 0 mappings in 'beanNameHandlerMapping'
+2020-09-01 16:23:19.135 [main] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-09-01 16:23:19.145 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-09-01 16:23:26.321 [http-nio-8050-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data

@@ -1,0 +1,41 @@
+plugins {
+    id 'org.springframework.boot' version '2.3.3.RELEASE'
+    id 'io.spring.dependency-management' version '1.0.10.RELEASE'
+    id 'java'
+}
+
+group = 'org.lsy.learn'
+version = '1.0-SNAPSHOT'
+sourceCompatibility = '1.8'
+
+configurations {
+    compileOnly {
+        extendsFrom annotationProcessor
+    }
+}
+
+repositories {
+    mavenLocal()
+    maven{
+        url('http://maven.aliyun.com/nexus/content/groups/public')
+    }
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-data-redis'
+    implementation 'org.springframework.boot:spring-boot-starter-security'
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'com.baomidou:mybatis-plus-boot-starter:3.4.0'
+    implementation 'com.baomidou:mybatis-plus-generator:3.4.0'
+    implementation 'com.alibaba:fastjson:1.2.70'
+    compileOnly 'org.projectlombok:lombok'
+    runtimeOnly 'mysql:mysql-connector-java'
+    annotationProcessor 'org.projectlombok:lombok'
+    implementation 'io.jsonwebtoken:jjwt:0.9.1'
+    implementation 'org.apache.velocity:velocity-engine-core:2.1'
+    implementation 'org.yaml:snakeyaml:1.24'
+    implementation 'org.apache.commons:commons-pool2:2.7.0'
+    implementation 'cn.hutool:hutool-all:5.2.5'
+}
+
