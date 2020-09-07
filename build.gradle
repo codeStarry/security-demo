@@ -2,11 +2,13 @@ plugins {
     id 'org.springframework.boot' version '2.3.3.RELEASE'
     id 'io.spring.dependency-management' version '1.0.10.RELEASE'
     id 'java'
+    id 'idea'
 }
 
 group = 'org.lsy.learn'
 version = '1.0-SNAPSHOT'
 sourceCompatibility = '1.8'
+
 
 configurations {
     compileOnly {
@@ -39,3 +41,8 @@ dependencies {
     implementation 'cn.hutool:hutool-all:5.2.5'
 }
 
+gradle.projectsEvaluated {
+    tasks.withType(JavaCompile) {
+        options.compilerArgs << "-Xlint:unchecked" << "-Xlint:deprecation"
+    }
+}

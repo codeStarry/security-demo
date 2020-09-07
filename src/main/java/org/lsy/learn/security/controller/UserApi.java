@@ -9,6 +9,7 @@ import org.lsy.learn.security.config.R;
 import org.lsy.learn.security.domain.UserDTO;
 import org.lsy.learn.security.model.User;
 import org.lsy.learn.security.service.IUserService;
+import org.lsy.learn.security.validate.ImageCode;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -16,6 +17,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import javax.imageio.ImageIO;
+import javax.servlet.http.HttpServletResponse;
+import java.io.IOException;
 import java.util.List;
 
 
@@ -39,6 +43,13 @@ public class UserApi {
     @PostMapping(value = "/page")
     public R<IPage<User>> pageUser(@RequestBody Pager<BaseParam<User>> pager) {
         return R.ok(targetService.pageUser(pager));
+    }
+
+    @RequestMapping(value = "/test")
+    public void test(HttpServletResponse response) throws IOException {
+        ImageCode validate = new ImageCode();
+        System.out.println("哈哈：" + validate.toString());
+        ImageIO.write(validate.getImage(), "JPEG", response.getOutputStream());
     }
 
     /**

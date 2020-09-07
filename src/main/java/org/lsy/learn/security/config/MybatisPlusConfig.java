@@ -28,7 +28,7 @@ public class MybatisPlusConfig {
         innerInterceptor.setOverflow(false);
         // 设置最大单页限制数量，默认 500 条，-1 不受限制
         innerInterceptor.setMaxLimit(500L);
-        // 开启 count 的 join 优化,只针对部分 left join
+
         innerInterceptor.setDbType(DbType.MYSQL);
         innerInterceptor.setDialect(new MySqlDialect());
         return innerInterceptor;

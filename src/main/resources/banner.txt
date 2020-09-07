@@ -6,8 +6,8 @@ ${AnsiColor.BRIGHT_GREEN}
  |_____| |____/    |_|
 
 ${AnsiColor.BRIGHT_BLUE}
-Application Name：${spring.application.name}
-Application Profiles：${spring.profiles.active}
-Server Port：${server.port}
-Spring Boot Version：${spring-boot.version}${spring-boot.formatted-version}
+Application Name： ${spring.application.name}
+Application Profiles： ${spring.profiles.active}
+Server Port： ${server.port}
+Spring Boot Version： ${spring-boot.version}${spring-boot.formatted-version}
 
